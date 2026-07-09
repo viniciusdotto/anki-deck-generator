@@ -1,0 +1,32 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+help/
+
+# Arquivos de instalação do venv
+.audio-tts/
+activate.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Artefatos do projeto
+audios_tmp/
+decks/*.apkg
+
+decks.csv
+decks/*
+contents/*
+!contents/template_cards.csv
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Sistema
+.DS_Store
